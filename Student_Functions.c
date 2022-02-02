@@ -15,15 +15,6 @@ void StartProgram(void)
     char Onflag = 1;
     /* Function Code */
     Main_Menu(&School_Students_List);   //send the School List to Make it a linked list
-//    {   //Adding
-//        LLEntry Ahmed = {{30,10,1996},{80,0,0},1002102343,221001,"Zayed","Ahmed Adel"};
-//        LLEntry Islam = {{28,2,1998},{90,0,0},1002102349,221002,"Mohandseen","Islam Adel"};
-//        LLEntry Kareem = {{1,1,2001},{60,0,0},1002102342,221003,"Downtown","Kareem Adel"};
-//        DublyAddToTheLastLLNode(Ahmed,&School_Students_List);
-//        DublyAddToTheLastLLNode(Kareem,&School_Students_List);
-//        DublyAddToTheLastLLNode(Islam,&School_Students_List);
-//        School_Students_List.LastID = 221003;
-//    }
     while(Onflag)
     {
         /* print the main menu screen */
