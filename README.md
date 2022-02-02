@@ -2,7 +2,8 @@
 This is a school management system for a c-project 
 
 This project was the grad-project of an embedded C Course.
-it is a School management system that make the use able to :
+
+it is a School management system that make the user able to :
   1. Add New Students.
   2. Remove an Existing Student.
   3. Updating Student info.
