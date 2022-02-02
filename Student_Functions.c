@@ -203,32 +203,8 @@ void New_Student(LinkedList *Pll)
         studentinfo.Subjects[Mathematics] = 0;
     }
 
-    studentinfo.ID = Pll->LastID+1;
-    Pll->LastID++;
-//    /* Adding Student ID */
-//    /* This function still need sorting */
-//    studentinfo.ID = 221001;            //initialize the student ID
-//    SortAccordingToID(Pll);             //First Sort it according to the array
-//    if(P1)
-//    {   //If function to check if there is student info in the List or not
-//        while(P1->Next)
-//        {   //While loop to Get to the bottom of the list
-//            P1 = P1->Next;
-//        }
-//
-//        for(int Iteration=Pll->SIZE; Iteration>0 ; Iteration--)     //For loop to loop over the whole list
-//        {
-//            if(P1->data.ID == studentinfo.ID)   //check if there is student with this ID or not
-//            {
-//                P1 = P1->Previous;          //if True go to the next student
-//            }
-//            else
-//            {
-//                break;                      //if this ID is free Leave the loop
-//            }
-//            studentinfo.ID++;
-//        }
-//    }
+    Pll->LastID++;			//Increament the last ID first
+    studentinfo.ID = Pll->LastID;	//then give the new ID to that new student
     DublyAddToTheLastLLNode(studentinfo,Pll);   //Send The Entered Student's Data to the LinkedList DataBase
 }
 
